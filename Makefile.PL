@@ -53,4 +53,5 @@ cc_lib_links('crypto');
 cc_optimize_flags('-g -Wall');
 
 auto_install();
+repository 'http://github.com/dsully/perl-crypt-openssl-x509';
 WriteAll();
